@@ -5,7 +5,7 @@ from sklearn.svm import LinearSVC
 #from sklearn.metrics import confusion_matrix
 
 from pystruct.datasets import load_letters
-from pystruct.models import ChainCRF, GraphCRF
+from pystruct.models import ChainCRF
 from pystruct.learners import OneSlackSSVM
 
 abc = "abcdefghijklmnopqrstuvwxyz"
